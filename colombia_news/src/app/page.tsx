@@ -22,7 +22,18 @@ const articulos: Articulo[] = [
     resumen: 'Expertos económicos comparten sus predicciones para el próximo año.',
     imagenUrl: '/economy.jpg',
   },
-  // Agrega más artículos según sea necesario
+  {
+    id: 3,
+    titulo: 'Avances en Energías Renovables',
+    resumen: 'Descubre cómo el mundo está cambiando hacia fuentes de energía más sostenibles.',
+    imagenUrl: '/energy.jpg',
+  },
+  {
+    id: 4,
+    titulo: 'El Impacto de la IA en la Vida Cotidiana',
+    resumen: 'Explorando cómo la inteligencia artificial está transformando nuestras rutinas diarias.',
+    imagenUrl: '/ai.jpg',
+  },
 ];
 
 const Home: NextPage = () => {
@@ -34,7 +45,22 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex flex-col items-center justify-center min-h-screen p-4">
+      <nav className="bg-white dark:bg-gray-800 shadow fixed w-full z-10 top-0 left-0">
+        <div className="max-w-7xl mx-auto px-8">
+          <div className="flex justify-between">
+            <div className="flex space-x-4">
+              <div>
+                <a href="#" className="flex items-center py-5 px-2 text-gray-700 hover:text-gray-900">
+                  <span className="font-bold">Inicio</span>
+                </a>
+              </div>
+              {/* Más enlaces de navegación si es necesario */}
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <main className="flex flex-col items-center justify-center min-h-screen p-4 pt-16">
         <h1 className="text-4xl font-bold">Blog de Noticias</h1>
         <p className="text-xl text-gray-600">Últimas actualizaciones e informes</p>
 
