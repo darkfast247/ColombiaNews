@@ -1,0 +1,20 @@
+{
+  "name": "colombianews",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ctrl+g"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darkfast247/ColombiaNews.git"
+  },
+  "author": "Santiago y Juan David",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darkfast247/ColombiaNews/issues"
+  },
+  "homepage": "https://github.com/darkfast247/ColombiaNews#readme"
+}
+
