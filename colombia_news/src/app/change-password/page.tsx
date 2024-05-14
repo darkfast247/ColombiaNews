@@ -1,6 +1,12 @@
-export default function ChangePage(){
+export default function ChangePage() {
     return (
-      <h1>ChangePage</h1>
+        <h1>ChangePage</h1>
     )
-  }
-  
+}
+
+export default function ChangePage() {
+    return (
+        <h1>ChangePage</h1>
+    );
+}
+

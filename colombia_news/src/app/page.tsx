@@ -82,4 +82,12 @@ const Home: NextPage = () => {
   );
 };
 
+export function LoginPage(){
+  return (
+    <h1>LoginPage</h1>
+  )
+}
+
+
+
 export default Home;
