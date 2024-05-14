@@ -1,5 +1,12 @@
 export default function RegisterPage(){
     return (
-      <h1>RegisterPage</h1>
-    )
-  }
+        <h1>RegisterPage</h1>
+    );
+}
+
+export default function RegisterPage(){
+    return (
+        <h1>RegisterPage</h1>
+    );
+}
+

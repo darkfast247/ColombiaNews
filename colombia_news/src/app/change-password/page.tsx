@@ -1,5 +1,12 @@
-export default function ChagePage(){
+export default function ChangePage() {
     return (
-      <h1>ChagePage</h1>
+        <h1>ChangePage</h1>
     )
-  }
+}
+
+export default function ChangePage() {
+    return (
+        <h1>ChangePage</h1>
+    );
+}
+
