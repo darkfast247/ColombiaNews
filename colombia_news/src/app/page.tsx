@@ -15,7 +15,7 @@ const articulos: Articulo[] = [
     id: 1,
     titulo: 'Nuevas Tecnologías que Están Dando Forma al Futuro',
     resumen: 'Un vistazo a cómo las tecnologías emergentes están redefiniendo las industrias.',
-    imagenUrl: '/tech.jpg',
+    imagenUrl: '', // Puedes agregar una URL válida aquí si tienes una imagen.
   },
   {
     id: 2,
@@ -56,16 +56,15 @@ const Home: NextPage = () => {
                 </a>
               </div>
               <div>
-                <a href="#" className="flex items-center py-5 px-2">
+                <a href="#about" className="flex items-center py-5 px-2">
                   <span className="font-bold">Sobre Nosotros</span>
                 </a>
               </div>
               <div>
-                <a href="#" className="flex items-center py-5 px-2">
+                <a href="#contact" className="flex items-center py-5 px-2">
                   <span className="font-bold">Contacto</span>
                 </a>
               </div>
-              {/* Más enlaces de navegación si es necesario */}
             </div>
             <div className="flex items-center space-x-4">
               <div className="dropdown">
@@ -124,6 +123,34 @@ const Home: NextPage = () => {
           </div>
         </aside>
       </main>
+
+      <footer className="bg-gray-800 text-white p-8 mt-8">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div id="about">
+            <h2 className="text-2xl font-bold mb-4">Sobre Nosotros</h2>
+            <p className="mb-4">Somos un equipo de desarrolladores dedicados a proporcionar las últimas noticias y análisis sobre tecnología, economía y más. Con años de experiencia en la industria, nuestro objetivo es ofrecer contenido de alta calidad y relevante para nuestros lectores.</p>
+            <p className="mb-4">Nuestro equipo está compuesto por:</p>
+            <ul className="list-disc list-inside">
+              <li>Juan David Marin Toro - Desarrollador de software</li>
+              <li>Santiago Loaiza Gutierrez - Desarrollador de software</li>
+              
+            </ul>
+          </div>
+
+          <div id="contact">
+            <h2 className="text-2xl font-bold mb-4">Contacto</h2>
+            <p className="mb-2">Correo Electrónico: santiago.loaiza036@pascualbravo.edu.co</p>
+            <p className="mb-2">Correo Electrónico: juandavidmarintoro@pascualbravo.edu.co</p>
+            <p className="mb-2">Teléfono: 3003929814</p>
+            <p>Síguenos en nuestras redes sociales:</p>
+            <div className="flex space-x-4 mt-2">
+              <a href="https://github.com/darkfast247" className="text-white hover:text-gray-400">Github</a>
+              <a href="https://github.com/Juandam1224" className="text-white hover:text-gray-400">Github</a>
+
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 };
@@ -145,4 +172,7 @@ export const LoginPage: NextPage = () => {
 };
 
 export default Home;
+
+
+
 
